@@ -723,6 +723,11 @@
   resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-3.10.0-50.73e60b76d394f8d37d8ebd1f8918c79029f0db86.tgz#2964113729a78b8b21e186b5592affd1fde73c16"
   integrity sha512-LjRssaWu9w2SrXitofnutRIyURI7l0veQYIALz7uY4shygM9nMcK3omXcObRm7TAcw3Z+9ytfK1B+ySOsOesxQ==
 
+"@prisma/studio@^0.458.0":
+  version "0.458.0"
+  resolved "https://registry.yarnpkg.com/@prisma/studio/-/studio-0.458.0.tgz#2058bb54084575f4f59afc89500a16066e6a99e4"
+  integrity sha512-59t1c5HPWVsUiwQqKsVB6XCWmdcM4C1zIEbpDX3rYDBsTtHx6IPilwPTE6yoGA7EUMdzQD+1ypeYX7JJ6Y802g==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
