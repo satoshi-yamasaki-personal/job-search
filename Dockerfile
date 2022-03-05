@@ -32,4 +32,4 @@ RUN yarn install
 # CMD ["./start.sh"]
 CMD ["yarn", "prisma", "migrate"]
 CMD ["yarn", "prisma", "generate"]
-CMD ["yarn", "start"]
+CMD ["yarn", "start:dev"]
