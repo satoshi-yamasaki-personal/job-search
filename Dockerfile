@@ -1,12 +1,9 @@
 FROM node:16
-RUN yarn global add @nestjs/cli
+
+RUN npm i -g @nestjs/cli
 
 WORKDIR /api-server
-COPY pakage*.json /api-server/
-COPY yarn.lock /api-server/
+COPY package*.json /api-server/
 
-RUN yarn install
-
-CMD ["yarn", "prisma", "migrate"]
-CMD ["yarn", "prisma", "generate"]
-CMD ["yarn", "start:dev"]
+RUN npm i
+CMD ["npm", "run", "start:dev"]

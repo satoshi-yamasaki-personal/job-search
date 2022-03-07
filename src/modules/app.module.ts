@@ -13,10 +13,11 @@ import { UserModule } from '../modules/user/user.module';
   // providers: [AppService, GoogleStrategy],
   providers: [AppService],
 })
-export class AppModule implements NestModule {
-  configure(consumer: MiddlewareConsumer) {
-    consumer.apply(PreauthMiddleware).forRoutes({
-      path: '*', method: RequestMethod.ALL
-    })
-  }
-}
+// export class AppModule implements NestModule {
+//   configure(consumer: MiddlewareConsumer) {
+//     consumer.apply(PreauthMiddleware).forRoutes({
+//       path: '*', method: RequestMethod.ALL
+//     })
+//   }
+// }
+  export class AppModule {}
