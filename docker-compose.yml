@@ -13,14 +13,14 @@ services:
     depends_on:
       - db-server
 
-  db-server:
-    container_name: db-server
-    image: mysql:8
-    restart: always
-    ports:
-      - '3307:3306'
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: job-search
-      MYSQL_USER: develop
-      MYSQL_PASSWORD: develop
+  # db-server:
+  #   container_name: db-server
+  #   image: mysql:8
+  #   restart: always
+  #   ports:
+  #     - '3307:3306'
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: root
+  #     MYSQL_DATABASE: job-search
+  #     MYSQL_USER: develop
+  #     MYSQL_PASSWORD: develop
